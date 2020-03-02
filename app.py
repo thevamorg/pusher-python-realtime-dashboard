@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from pusher import Pusher
 
 app = Flask(__name__)
-pusher = Pusher(app_id=u'PUSHER_APP_ID', key=u'PUSHER_APP_KEY', secret=u'PUSHER_APP_SECRET', cluster=u'PUSHER_APP_CLUSTER')
+pusher = Pusher(app_id=u'957024', key=u'4db1fa0246de267c214b', secret=u'e8cec8ca558faa964d09', cluster=u'ap1')
 
 @app.route('/')
 def index():

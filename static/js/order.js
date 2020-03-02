@@ -38,8 +38,8 @@ var myLineChart = new Chart(ctx, {
 Pusher.logToConsole = true;
 
 // Configure Pusher instance
-var pusher = new Pusher('PUSHER_APP_KEY', {
-  cluster: 'PUSHER_APP_CLUSTER',
+var pusher = new Pusher('4db1fa0246de267c214b', {
+  cluster: 'ap1',
   encrypted: true
 });
 
