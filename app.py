@@ -12,6 +12,10 @@ def index():
 def dashboard():
 	return render_template('dashboard.html')
 
+@app.route('/meetingRoom')
+def meetingRoom():
+	return render_template('meetingRoom.html')
+
 @app.route('/orders', methods=['POST'])
 def order():
 	data = request.form
